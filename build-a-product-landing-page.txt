@@ -1,0 +1,152 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<title>Packers Classic 50s landing page</title>
+<link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<header id="header">
+  <nav id="nav-bar">
+    <h1><a href=""><img id="header-img"src="https://logos-world.net/wp-content/uploads/2020/05/Green-Bay-Packers-logo-700x394.png"></a></h1>
+    <ul>
+  <li><a class="nav-link" href="#packer-classic" >PACKER CLASSIC</a></li>
+  <li ><a class="nav-link" href="#jerseys">JERSEYS</a></li>
+  <li><a class="nav-link" href="#sign_up">SIGN UP</a></li>
+  </ul>
+</nav>
+
+</header>
+<section>
+<div class="main-packer">
+  <h1 class="main" id="packer-classic">PACKER CLASSIC</h1>
+  <p class="info-p">Green Bay Packers bring back the classic 1950's look! All of the 50's colection can be found at the <a href="https://www.packersproshop.com/green-bay-packers-collections/50-s-classic-collection" rel="external">Packers Pro Shop</a>. </p>
+  <a class="video"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/kXvZ-WBXqlY?si=WV5kfSiXicn0_sQL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+  </div>
+  <h2 id="jerseys" class="main">JERSEYS</h2>
+  <p class="jersey-info"> <a class="jerseys" href="https://www.packersproshop.com/packers-50s-classic-youth-23-alexander-jersey"><img class="jerseys" src="https://www.packersproshop.com/media/catalog/product/cache/ca7319187ed9bf58bafb9c1ac33cde70/5/1/5119710102_20_13_2500.jpg" alt="#23 Alexander Nike 50s Classic Youth Game Jersey" /></a><a class="sub-link" href="https://www.packersproshop.com/packers-50s-classic-youth-23-alexander-jersey""><subtitle>#23 Alexander Nike 50s Classic Youth Game Jersey-$89.99</subtitle></a>
+<a class="jerseys" href="https://www.packersproshop.com/catalog/product/view/id/128736/s/w-50s-classic-87-doubs-game-j/category/1295/"><img class="jerseys" src="https://www.packersproshop.com/media/catalog/product/cache/ca7319187ed9bf58bafb9c1ac33cde70/5/1/5120176108_20_13_2500.jpg" alt="#87 Doubs Nike 50s Classic Youth Game Jersey"/></a><a class="sub-link" href="https://www.packersproshop.com/packers-50s-classic-youth-23-alexander-jersey""><subtitle>#87 Doubs Nike 50s Classic Womens Game Jersey-$129.99</subtitle></a>
+  <a class="jerseys" href="https://www.packersproshop.com/packers-50s-classic-12-rodgers-game-jersey"><img class="jerseys" src="https://www.packersproshop.com/media/catalog/product/cache/ca7319187ed9bf58bafb9c1ac33cde70/5/1/5116710100_20_13_2500.jpg" alt="#12 Rogers Nike 50s Classic Youth Game Jersey"/></a><a class="sub-link" href="https://www.packersproshop.com/packers-50s-classic-youth-23-alexander-jersey""><subtitle>#12 Rodgers Nike 50s Classic Game Jersey
+    -$69.97      </subtitle></a></p>
+  <h3 class="main" id="sign_up">SIGN UP</h3>
+  <div class="main-sign-up">
+    <p>Sign up with email to recieve the best of our cheese head discounts, offers, and be the first to know when new gear is dropping!</p>
+  <form id="form" action="https://www.freecodecamp.com/email-submit"><input id="email" type="email" placeholder="jlove@tdown.com" name="email">
+  <input id="submit" type="submit" value="Submit" ></form>
+  </div>
+</section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+nav{height:80px;
+width:100%;
+position:fixed;
+
+}
+
+nav h1{float:left;
+line-height:80px;
+font-size:25px;
+font-size:inline;
+color:#FFB612;
+font-family:Fantasy;
+font-weight:bold;
+}
+
+nav ul{float:right;
+line-height:80px;
+padding-right:20px;}
+
+nav ul li{display:inline-block;
+list-style:none;
+padding:0px 5px;
+}
+
+nav ul li a{color:#fff;
+text-transform:uppercase;
+border-radius:5px;
+padding: 7px 8px;}
+
+nav ul li a:hover{background-color:#FFAB16;
+transition:0.5s ease;}
+
+nav ul li .nav-link{background-color:#203731;}
+
+
+.info-p{text-align:center;
+font-size:18px;
+line-height:1.5;
+margin-bottom:50px;}
+
+.video{display:flex;
+justify-content:center;}
+
+.main{text-align:center;
+padding:20px;
+font-family:sans-serif;
+font-weight:bold;
+color:#203731;
+text-decoration:underline;}
+
+.jerseys{display:block;
+flex-direction:column;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+width:250px;
+height:auto;
+justify-content:center;
+align-items:center;}
+
+.jersey-info{columns:3 auto;
+padding:25px;}
+
+.sub-link:link, .sub-link:visited { background-color: #FFAB16;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:5px;}
+
+.sub-link:hover{color:#FFAB16;
+background-color:#203731;
+}
+
+.main-sign-up p{text-align:center;
+font-size:18px;
+line-height:1.5;
+margin-bottom:25px;
+}
+
+.main-sign-up form{display:flex;
+justify-content:center;}
+
+header nav h1 a img{  background: url("/path") no-repeat; 
+         width: 100px; 
+         height: auto; 
+         display: block; 
+         text-indent: -9999px;}
+
+form{padding-bottom:50px;}
+
+
+@media screen and (min-width: 900px) {
+  .jerseys {
+    display:flex;
+    flex-direction:column;
+
+  }
+}
+
+.main-packer{padding-top:80px;}
+
+** end of undefined **
+
